@@ -1,0 +1,17 @@
+label {
+    font-family: sans-serif;
+    background: black;
+    color:white;
+}
+#formulario{
+    background: green;
+    align-content: center;
+}
+h1{
+    color:white;
+}
+input{
+    border:10px;
+    border-radius: 5%;
+   
+}
