@@ -1,4 +1,7 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package modeldao;
 
 import Interfaz.MeAprendiz;
@@ -9,15 +12,16 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
 
-
-public class AprendizDao implements MeAprendiz {
-    
-    Conexion co=new Conexion();
+/**
+ *
+ * @author APRENDIZ
+ */
+public class aprendizda implements MeAprendiz{
+ Conexion co=new Conexion();
     Connection cn; 
     PreparedStatement pc;
     ResultSet rs;
     Aprendiz ap= new Aprendiz();
-    
     @Override
     public Aprendiz list(int id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
@@ -30,9 +34,7 @@ public class AprendizDao implements MeAprendiz {
 
     @Override
     public boolean registrarA(Aprendiz ap) {
-
-                
-    String sql="insert into aprendiz(Docu,Nombrea,Apellidoa,Correoa,Numcontacto)values('"+ap.getDocuA()+"','"+ap.getNombreA()+"','"+ap.getApellidoA()+"','"+ap.getCorreoA()+"','"+ap.getTeleA()+"')";
+        String sql="insert into Aprendiz(Docu,Nombrea,Apellidoa,Correoa,Numcontacto)values('"+ap.getDocuA()+"','"+ap.getNombreA()+"','"+ap.getApellidoA()+"','"+ap.getCorreoA()+"','"+ap.getTeleA()+"')";
         try{
         cn=co.getConnection();
         pc=cn.prepareStatement(sql);
@@ -49,6 +51,7 @@ public class AprendizDao implements MeAprendiz {
     }
     return false;
     }
+    
 
     @Override
     public boolean actualizarA(Aprendiz ap) {

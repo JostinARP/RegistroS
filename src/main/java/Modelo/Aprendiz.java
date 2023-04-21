@@ -9,10 +9,11 @@ public class Aprendiz {
     
     private int id;
     private int docuA;
-    private int TeleA;
+    
     private String NombreA;
     private String ApellidoA;
     private String CorreoA;
+    private int TeleA;
 
     public Aprendiz() {
     }
@@ -64,6 +65,8 @@ public class Aprendiz {
     public void setCorreoA(String CorreoA) {
         this.CorreoA = CorreoA;
     }
+
+   
     
     
 }

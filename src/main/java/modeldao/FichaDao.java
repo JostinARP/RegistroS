@@ -1,5 +1,5 @@
 
-package modeldao;
+/*package modeldao;
 
 import Interfaz.MeFicha;
 import Modelo.Ficha;
@@ -20,13 +20,13 @@ public class FichaDao implements MeFicha {
 
     @Override
     public boolean registrarFicha(Ficha F) {
-        String sql:
-        try{
         
-        }catch{
+        //try{
         
-        }
-        return false;
+        //}catch{
+        
+        //}
+        //return false;
     }
 
     @Override
@@ -40,3 +40,4 @@ public class FichaDao implements MeFicha {
     }
     
 }
+*/

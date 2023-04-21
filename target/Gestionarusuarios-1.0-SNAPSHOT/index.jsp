@@ -1,6 +1,13 @@
+<%-- 
+    Document   : index
+    Created on : 20/04/2023, 9:04:42 p. m.
+    Author     : APRENDIZ
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
+   <head>
         <title>Start Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="View/Css/newcss.css" rel="stylesheet" type="text/css"/>

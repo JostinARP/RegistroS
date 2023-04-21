@@ -16,7 +16,7 @@ public class Conexion {
         }catch(Exception e){
         System.err.println("Error"+e);
         }
-        
+    }
         public Connection getConnection(){
             
             return con;

@@ -6,6 +6,8 @@ label {
 #formulario{
     background: green;
     align-content: center;
+    width: 50%;
+    height: 20px;
 }
 h1{
     color:white;
