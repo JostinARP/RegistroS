@@ -1,0 +1,34 @@
+label {
+    font-family: sans-serif;
+    background: black;
+    color:white;
+}
+#formulario{
+    background: black;
+    align-content: center;
+    width: 50%;
+    height: 80%;
+    transform: translate(50%,0%);
+    
+}
+h1{
+    color:blue;
+    font-family: cursive;
+    align-content: center;
+    text-align: center;
+}
+input{
+    border:10px;
+    border-radius: 5%;
+    background: turquoise;
+   
+}
+.boton{
+    
+    transform: translate(25%,50%);
+    align-content: flex;
+    flex-wrap: flex;
+    
+    
+}
+
